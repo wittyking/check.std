@@ -34,9 +34,11 @@ window.onload = async function() {
   if (liff.isInClient()) {
 //         getUserProfile()
       } else {
-        liff.login()
+        
         if (liff.isLoggedIn()) {
-//           getUserProfile()          
+//         getUserProfile()          
+        } else {
+          liff.login()
         }
       }
 }  
