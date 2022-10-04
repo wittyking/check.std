@@ -27,19 +27,20 @@
 
 <script>
 window.onload = function() {
-  initializeLiff('1657500898-24PjQgw5');
+//   initializeLiff('1657500898-24PjQgw5');
+  liff.init({ liffId:"1657500898-24PjQgw5"})
 }
 
-async function initializeLiff(myLiffId) {
-    await liff
-        .init({
-            liffId: myLiffId
-        })
-        .then(() => {
-        })
-        .catch((err) => {
-        });
-}
+// async function initializeLiff(myLiffId) {
+//     await liff
+//         .init({
+//             liffId: myLiffId
+//         })
+//         .then(() => {
+//         })
+//         .catch((err) => {
+//         });
+// }
 
 function letg() {
 var x = document.getElementById("tex1");
